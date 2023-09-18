@@ -1,0 +1,26 @@
+{
+  "name": "teste-fila",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/melyssa08/teste-fila.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/melyssa08/teste-fila/issues"
+  },
+  "homepage": "https://github.com/melyssa08/teste-fila#readme",
+  "dependencies": {
+    "@aws-sdk/client-sqs": "^3.414.0",
+    "aws-sdk": "^2.1458.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  },
+  "type": "module"
+}
