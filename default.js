@@ -40,12 +40,11 @@ app.get("/", async (req, res) => {
     if (receiveMessageResult.Messages) {
       console.log("Mensagens recebidas:", receiveMessageResult.Messages);
       console.log("Quantidade de mensagens recebidas:", receiveMessageResult.Messages.length);
+      res.json(receiveMessageResult.Messages[0])
     }
   } catch (err) {
     console.error("Erro:", err);
   }
-
-  res.send("Algo");
 });
 
 app.listen(3003, () => {
